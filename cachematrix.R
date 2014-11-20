@@ -20,7 +20,6 @@ makeCacheMatrix <- function(x = matrix()) {
         list(set = set, get = get,setinverse = setinverse,getinverse = getinverse)
 }
 
-
 ## cacheSolve function will check the input whether has already in the cache, if not, the function will compute the input
 ## and store the output into the makeCacheMatrix function['setinverse'] to be the new stored data and update the data of cache.
 
